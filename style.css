@@ -54,7 +54,7 @@ h1 {
   justify-content: space-between;
 }
 
-/* .badge {
+.badge {
   color: black;
   text-decoration: underline;
   font-style: normal;
@@ -65,7 +65,7 @@ h1 {
 
 .badge a {
   display: flex;
-} */
+}
 
 .content {
   margin-top: 10px;
