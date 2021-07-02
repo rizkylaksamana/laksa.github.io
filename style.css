@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1, 5;
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f6f8;
+}
+
+#navbarNav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profil-pict {
+  display: flex;
+  justify-content: center;
+}
+.header img {
+  clip-path: circle();
+  width: 200px;
+  height: auto;
+  padding: 0;
+}
+
+.main header {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.title {
+  border-bottom: 2px solid #5c5f61;
+  padding: 0;
+}
+
+.content {
+  margin-top: 10px;
+}
+
+p {
+  text-align: justify;
+}
+
+.header {
+  margin-bottom: 3rem;
+}
+
+.experience {
+  margin-bottom: 3rem;
+}
+
+.education {
+  margin-bottom: 3rem;
+}
+
+.cert {
+  margin-bottom: 3rem;
+}
+
+.contact {
+  margin-bottom: 3rem;
+}
+
+.linkedin {
+  display: flex;
+}
+
+img {
+  width: 35px;
+  padding-right: 10px;
+}
+
+.linkedin,
+.email,
+.whatsapp {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+}
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+}
