@@ -49,6 +49,24 @@ h1 {
   padding: 0;
 }
 
+.ctia {
+  display: flex;
+  justify-content: space-between;
+}
+
+.badge {
+  color: black;
+  text-decoration: underline;
+  font-style: normal;
+  font-weight: lighter;
+  padding: 0;
+  margin: 0;
+}
+
+.badge a {
+  display: flex;
+}
+
 .content {
   margin-top: 10px;
 }
